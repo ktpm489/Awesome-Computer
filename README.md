@@ -10,6 +10,7 @@
 - Promise ([Link](http://programmingsummaries.tistory.com/325))
 - Swagger
 - Method Chaining
+- async / await
 
 ## Reading
 
