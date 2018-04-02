@@ -11,6 +11,8 @@
 - Swagger
 - Method Chaining
 - async / await
+- assert
+- ES2015, 2016, 2017
 
 ## Reading
 
