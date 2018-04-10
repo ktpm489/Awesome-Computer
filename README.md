@@ -1,6 +1,4 @@
-# Functional JavaScript
-
-- With Underscore (http://underscorejs.org/)
+# JavaScript Study
 
 ## TODO
 
@@ -13,8 +11,10 @@
 - async / await
 - assert
 - ES2015, 2016, 2017 ...
+- for...of
 - JWT
 - Redis?
+- 상속 구현
 
 ## Reading
 
@@ -25,3 +25,4 @@
 - [ES Compactibility Table](http://kangax.github.io/compat-table/esnext/)
 - [Speed up and Improve Node.js server](https://medium.com/skyshidigital/6-tricks-to-speed-up-and-improve-your-node-js-performance-fadc06d15cbe)
 - [Performance Tips for Node.js](https://www.nginx.com/blog/5-performance-tips-for-node-js-applications/)
+- [Underscore](http://underscorejs.org/)

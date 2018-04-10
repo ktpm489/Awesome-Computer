@@ -13,3 +13,7 @@ var add3 = (x, y) => {
 }
 
 var add4 = (x, y) => x + y;
+
+var print = x => console.log(x);
+
+print(add(1, 2));
