@@ -1,28 +1,7 @@
-# JavaScript Study
+## 공부
 
-## TODO
+- 모든 공부할 내용을 여기에 기록할 것입니다~~
 
-- this ([Link](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/this))
-- closure
-- prototype
-- Promise ([Link](http://programmingsummaries.tistory.com/325))
-- Swagger
-- Method Chaining
-- async / await
-- assert
-- ES2015, 2016, 2017 ...
-- for...of
-- JWT
-- Redis?
-- 상속 구현
+## 읽을거
 
-## Reading
-
-- [JS code Style By Google 1](https://google.github.io/styleguide/jsguide.html#introduction)
-- [JS code Style By Google 2](https://google.github.io/styleguide/javascriptguide.xml?showone=var#var)
-- [Speaking JS](http://speakingjs.com/es5)
-- [ES6 New Features](http://es6-features.org/)
-- [ES Compactibility Table](http://kangax.github.io/compat-table/esnext/)
-- [Speed up and Improve Node.js server](https://medium.com/skyshidigital/6-tricks-to-speed-up-and-improve-your-node-js-performance-fadc06d15cbe)
-- [Performance Tips for Node.js](https://www.nginx.com/blog/5-performance-tips-for-node-js-applications/)
-- [Underscore](http://underscorejs.org/)
+- https://ko.wikipedia.org/wiki/%EB%A9%94%ED%83%80%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D
