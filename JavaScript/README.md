@@ -23,7 +23,5 @@
 - [Speaking JS](http://speakingjs.com/es5)
 - [ES6 New Features](http://es6-features.org/)
 - [ES Compactibility Table](http://kangax.github.io/compat-table/esnext/)
-- [Speed up and Improve Node.js server](https://medium.com/skyshidigital/6-tricks-to-speed-up-and-improve-your-node-js-performance-fadc06d15cbe)
-- [Performance Tips for Node.js](https://www.nginx.com/blog/5-performance-tips-for-node-js-applications/)
 - [Underscore](http://underscorejs.org/)
 - [Module](https://d2.naver.com/helloworld/12864)
