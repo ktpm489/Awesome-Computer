@@ -1,0 +1,22 @@
+{
+  "name": "tdd_test",
+  "version": "1.0.0",
+  "description": "tdd study",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www.js",
+    "test": "mocha ./index.spec.js"
+  },
+  "author": "Wonjun Kim",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "should": "^13.2.1",
+    "supertest": "^3.1.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  }
+}
