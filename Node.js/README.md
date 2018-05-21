@@ -8,3 +8,4 @@
 - [Performance Tips for Node.js](https://www.nginx.com/blog/5-performance-tips-for-node-js-applications/)
 - [Rest API](https://nodejs.org/en/docs/guides/dont-block-the-event-loop/)
 - [Don't Block the Event Loop](https://nodejs.org/en/docs/guides/dont-block-the-event-loop/)
+- [빠르게 훑어보는 Node.js 1 - Node.js의 내부구조, ](http://bcho.tistory.com/881)
