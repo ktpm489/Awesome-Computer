@@ -17,5 +17,5 @@
 - -s로 Dependencies에 추가하는 것은 배포할 때에 필요할 모듈들을 추가하는 것이고, 테스트오와 같이 개발에만 필요한 모듈이라면 다음과 같은 명령어로 모듈을 추가할 수 있다.
 
 ```
-$ npm i module_name --save-dev
+$ npm i module-name --save-dev
 ```
