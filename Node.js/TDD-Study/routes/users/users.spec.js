@@ -32,7 +32,7 @@ describe('GET /users', () => {
                 .end((err, res) => {
                     res.body.should.have.lengthOf(2);
                     done();
-                })
+                });
         });
     });
 
@@ -55,9 +55,9 @@ describe('GET /users/:id', () => {
                     res.body.should.instanceOf(Object);
                     res.body.should.have.property('id', 1);
                     done();
-                })
-        })
-    })
+                });
+        });
+    });
 
     describe('Failure', () => {
         it('If id isn\'t Integer, Response Code 400', done => {
