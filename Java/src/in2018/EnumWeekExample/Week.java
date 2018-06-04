@@ -1,0 +1,5 @@
+package in2018.EnumWeekExample;
+
+enum Week {
+    SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY
+}
