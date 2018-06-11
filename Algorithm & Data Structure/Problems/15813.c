@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(int argc, char const *argv[])
 {
+/* 
     int stones, blackMax, whiteMin, bsCnt, wsCnt, maxLength, length, i, j;
     char stonesArr[300010];
     
@@ -36,6 +36,16 @@ int main(int argc, char const *argv[])
     }
 
     printf("%d", maxLength);
+ */    
+
+    int N, maxB, minW, i;
+    char stones[300050];
+
+    scanf("%d %d %d", &N, &maxB, &minW);
+    getchar();
+    scanf("%s", stones);
+
     
+
     return 0;
 }

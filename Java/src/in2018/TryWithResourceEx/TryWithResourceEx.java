@@ -29,5 +29,4 @@ public class TryWithResourceEx {
 }
 
 class HelloException extends Exception {
-    
 }

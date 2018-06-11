@@ -11,7 +11,7 @@ class Account {
 
     Account() { }
 
-    public long getBalance() {
+    long getBalance() {
         return balance;
     }
 
