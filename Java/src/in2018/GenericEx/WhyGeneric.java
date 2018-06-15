@@ -14,7 +14,7 @@ class Electronic {
 }
 
 class Food {
-    String name = "식물";
+    String name = "식품";
     String status;
 
     Food(String status) {
@@ -59,7 +59,9 @@ public class WhyGeneric {
 
         GoodsShip<Food> gs2 = new GoodsShip<>();
         gs2.boxing(new Food("음식"));
-        Food f1 = gs2.unBoxing();     //StringClass cannot be cast to FoodClass
+        Food f1 = gs2.unBoxing();
+        //gs2.boxing("음식");
+        //Food f1 = (Food) gs2.unBoxing();     //StringClass cannot be cast to FoodClass
         f1.currentState();
     }
 }

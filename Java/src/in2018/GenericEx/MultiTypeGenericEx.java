@@ -1,6 +1,6 @@
 package in2018.GenericEx;
 
-class Car {
+class Car{
 }
 
 class Tv{
@@ -27,7 +27,7 @@ class Product<T, M> {
     }
 }
 
-public class MultiTypeGeneric {
+public class MultiTypeGenericEx {
     public static void main(String[] args) {
         Product<Tv, String> product1 = new Product<>();
         product1.setKind(new Tv());
