@@ -44,6 +44,28 @@ class A {
             method2(10);
         }
     }
+
+    public void method1(final int arg){ // 자바 7 이전
+        final int localVariable =1;
+        //arg = 100;    (x)
+        //localVariable = 100;  (x)
+        class Inner{
+            public void method(){
+                int result = arg + localVariable;
+            }
+        }
+    }
+
+    public void method1(int arg){ // 자바 8 이후
+        final int localVariable =1;
+        //arg = 100;    (x)
+        //localVariable = 100;  (x)
+        class Inner{
+            public void method(){
+                int result = arg + localVariable;
+            }
+        }
+    }
 }
 
 public class LocalClass {
