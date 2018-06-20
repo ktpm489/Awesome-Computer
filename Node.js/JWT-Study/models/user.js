@@ -7,7 +7,7 @@ const User = new mongoose.Schema({
 });
 
 /*
-    Shcema.statics는
+    Shcema.statics는 Model에 정적 메소드를 추가한다.
 */
 User.statics.create = function (eMail, pw) {
     const user = new this({
