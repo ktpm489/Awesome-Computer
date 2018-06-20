@@ -64,7 +64,7 @@ class HighStudent extends Student {
 }
 
 public class WildCardEx {
-    private static void registerCourse(Course<?> course) {
+    private static void registerCourse (Course<?> course) {
         System.out.println(course.getName() + " 수강생: " + Arrays.toString(course.getStudents()));
     }
 
