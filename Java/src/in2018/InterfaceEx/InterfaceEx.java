@@ -32,7 +32,7 @@ interface UserFunction {
 }
 
 class UserFunctionImpl implements UserFunction {
-    ArrayList<User> users = new ArrayList<>();
+    private ArrayList<User> users = new ArrayList<>();
 
     @Override
     public void createUser(int id, String name, int age) {
@@ -53,6 +53,6 @@ class InterfaceEx {
         UserFunctionImpl userFunction = new UserFunctionImpl();
 
         userFunction.createUser(1, "kim", 18);
-        userFunction.getUserInfo(1);
+        System.out.println(userFunction.getUserInfo(1).getName());
     }
 }
