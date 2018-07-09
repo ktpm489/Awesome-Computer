@@ -1,35 +1,5 @@
 #include <stdio.h>
-#define N 3
-
-int A[N][N], val;
-
-void right(int r, int c1, int c2)
-{
-    int i;
-    for(i = c1; i < c2; i++)
-        A[r][i] = ++val;
-}
-
-void left(int r, int c1, int c2)
-{
-    int i;
-    for(i = c2; i > c1; i--)
-        A[r][i] = ++val;
-}
-
-void up(int r, int c1, int c2)
-{
-    int i;
-    for(i = c1; i < c2; i++)
-        A[r][i] = ++val;
-}
-
-void down(int r, int c1, int c2)
-{
-    int i;
-    for(i = c1; i < c2; i++)
-        A[r][i] = ++val;
-}
+#define N 5
 
 int main(void)
 {
@@ -43,12 +13,43 @@ int main(void)
     11 16 15 6
     10 9  8  7
     */
-    int i, j;
+    int A[N][N] = { 0, }, ci = 0, cj = 0, bi, bj;
+    int i, flag = 0;
 
-    for(i = 0;; i++)
+    for(i = 1; i < N * N; i++)
     {
-        
-        if(i < N)
-            break;
+        bi = ci, bj = cj;
+        switch(flag % 4)
+        {
+            case 0:
+                A[ci][cj++] = i;
+                break;
+            case 1:
+                A[ci++][cj] = i;
+                break;
+            case 2:
+                A[ci][cj--] = i;
+                break;
+            case 3:
+                A[ci--][cj] = i;
+                break;
+        }
+        if(A[ci][cj] != 0 || ci >= N || cj >= N || ci < 0 || cj < 0)
+        {
+            i--;
+            flag++;
+            ci = bi;
+            cj = bj;
+        }
     }
+    A[ci][cj] = i;
+
+    for(ci = 0; ci < N; ci++)
+    {
+        for(cj = 0; cj < N; cj++)
+            printf("%3d", A[ci][cj]);
+        printf("\n");
+    }
+
+    return 0;
 }
