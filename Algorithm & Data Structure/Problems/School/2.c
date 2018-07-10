@@ -1,3 +1,4 @@
+/* 달팽이 배열 */
 #include <stdio.h>
 #define N 5
 

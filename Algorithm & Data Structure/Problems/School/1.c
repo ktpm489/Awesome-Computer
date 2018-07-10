@@ -1,3 +1,4 @@
+/* 숫자를 직각삼각형으로 출력 */
 #include <stdio.h>
 #define N 5
 

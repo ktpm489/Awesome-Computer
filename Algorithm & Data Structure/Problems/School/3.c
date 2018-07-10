@@ -1,3 +1,4 @@
+/* 소수를 찾고, 직각삼각형으로 출력하기 */
 #include <stdio.h>
 #include <math.h>
 
@@ -11,7 +12,7 @@ int main(void)
     for(i = 3; i < 1000; i += 2)
     {
         remainderCnt = 0;
-        for(j = 2; j <= (int)sqrt(i); j++)
+        for(j = 2; j * j <= i; j++)
             if(i % j == 0)
             {
                 remainderCnt++;
