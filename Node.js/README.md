@@ -18,3 +18,8 @@
 - [한국커뮤니티](https://nodejs.github.io/nodejs-ko/)
 - [Restful API Sample](https://github.com/jeonghwan-kim/express-api-seed)
 - [express 만들기](http://blog.jeonghwan.net/2017/10/03/diy-express-day1.html)
+- [Request를 여러가지 방법으로 보내기]](https://www.valentinog.com/blog/http-requests-node-js-async-await/)
+- [V8의 GC](http://jayconrod.com/posts/55/a-tour-of-v8-garbage-collection)
+- [Node.js Gc](https://blog.risingstack.com/node-js-at-scale-node-js-garbage-collection/)
+- [Finding memory leak in Node.js](https://blog.risingstack.com/finding-a-memory-leak-in-node-js/)
+- [Socket.io](http://bcho.tistory.com/896?category=513811)
