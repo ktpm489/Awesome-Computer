@@ -18,7 +18,7 @@
 1. `.git`이 있는 폴더, 즉 프로젝트 루트 폴더에서 `$ heroku create {project name}`으로 Heroku app을 생성한다. 이때 git remote에 `heroku`가 추가된다.
 1. `$ git add .`으로 스테이징하고 `$ git commit`을 통해 커밋한 후 `$ git push heroku master`로 푸시한다.
 1. `$ heroku ps:scale web=1`을 입력하여 하나의 앱이 실행되도록 한다.
-1. `$ heroku open`을 입력 또는 'http://your-app-name.herokuapp.com'하면 자신의 애플리케이션이 실행된다.
+1. `$ heroku open`을 입력 또는 http://your-app-name.herokuapp.com 에 요청을 보내면 하면 자신의 애플리케이션이 실행된다.
 1. `$ heroku logs --tail`을 통해 앱의 로그를 확인할 수 있다.
 
 ## 참고
