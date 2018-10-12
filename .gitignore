@@ -1,4 +1,11 @@
+# node_modules
 node_modules
+
+# vscode 설정파일
 .vscode
+
+# c/c++ 빌드파일
 a.exe
-JavaScript/package-lock.json
+
+# 테스트용 폴더
+Test
